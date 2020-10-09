@@ -1,1 +1,81 @@
-/* Put your style information here! */
+body { 
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
+}
+p, li { 
+    line-height: 20pt;
+}
+.section_title { 
+    color: rgb(105, 94, 138);
+}
+.section_sub { 
+    color: rgb(162, 148, 202);
+    font-style: italic;
+}
+.section { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60pt;
+}
+
+.map { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+#header { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    background-color: rgb(105, 94, 138);
+    align-items: center;
+}
+
+#title, #sub { 
+    margin-top: -10px;
+}
+
+#microwave { 
+    height: 220pt; 
+    margin-top: 10pt;
+}
+
+#main { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 100pt;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#observation, #interview { 
+    width: 45%;
+}
+
+
+#process { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#personas { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#storyboard { 
+
+    align-self: center;
+}
